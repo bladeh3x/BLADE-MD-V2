@@ -1,16 +1,15 @@
 FROM quay.io/sampandey001/secktor
 
-RUN git clone https://github.com/Alex tv/BLADE-MD-V2.git /root/Alex tv
+RUN git clone https://github.com/bladeh3x/BLADE-MD-V2.git /root/bladeh3x
 
 # Clear npm cache and remove node_modules directories
 RUN npm cache clean --force
-RUN rm -rf /root/Alex tv/node_modules
+RUN rm -rf /root/bladeh3x/node_modules
 
 # Install dependencies
-WORKDIR /root/Alex tv
+WORKDIR /root/bladeh3x
 RUN npm install
 
 # Add additional Steps To Run...
 EXPOSE 3000
 CMD ["npm","start" ]
-# IF YOU ARE MODIFYING THIS BOT DONT CHANGE THIS  RUN rm -rf /root/Itxxwasi/node_modules
