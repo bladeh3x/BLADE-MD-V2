@@ -1,6 +1,6 @@
 FROM quay.io/sampandey001/secktor
 
-RUN git clone https://github.com/bladeh3x/BLADE-MD-V2.git /root/bladeh3x
+RUN git clone https://github.com/bladeh3x/BLADE-MD-V2.git
 
 # Clear npm cache and remove node_modules directories
 RUN npm cache clean --force
