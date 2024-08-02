@@ -1,15 +1,15 @@
 {
   "name": "wasi-md-v2",
   "description": "Simple WhatsApp Bot",
-  "logo": "https://github.com/Itxxwasi/WASI-MD-V2/blob/main/lib/assets/logo.png?raw=true",
-  "keywords": ["WASI-MD-V2", "WASIV2", "WASI MD","WASI MD","wasi","wasitech"],
+  "logo": "https://github.com/bladeh3x/BLADE-MD-V2/blob/main/lib/assets/logo.png?raw=true",
+  "keywords": ["BLADE-MD-V2", "BLADE V2", "BLADE MD","BLADE MD V2","blade","bladeh3x"],
   "success_url": "/",
   "stack": "container",
 
   "env": {
     "OWNER_NAME": {
       "description": "Name for Bot Owner",
-      "value": "𝐖𝐀𝐒𝐈-𝐓𝐄𝐂𝐇",
+      "value": "BLADE-MD",
       "required": true
     },
     "CAPTION" : {
@@ -25,7 +25,7 @@
     
     "IMAGE" : {
       "description": "THUMB IMAGE FOR BOT ",
-      "value": "https://telegra.ph/file/1f4e6e1cc2ed1662adb36.jpg",
+      "value": "https://telegra.ph/file/0e843d4ec15a125c86049.jpg",
       "required" : true
     },
 
@@ -43,7 +43,7 @@
     "BOT_NAME": {
       "description": " NAME FOR BOT",
       "required": false,
-      "value": "𝐖𝐀𝐒𝐈-𝐌𝐃-𝐕2"
+      "value": "BLADE-MD-𝐕2"
     },
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
