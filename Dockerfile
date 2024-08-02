@@ -1,13 +1,13 @@
 FROM quay.io/sampandey001/secktor
 
-RUN git clone https://github.com/Itxxwasi/WASI-MD-V2.git /root/Itxxwasi
+RUN git clone https://github.com/bladeh3x/BLADE-MD-V2.git /root/bladeh3x
 
 # Clear npm cache and remove node_modules directories
 RUN npm cache clean --force
-RUN rm -rf /root/Itxxwasi/node_modules
+RUN rm -rf /root/bladeh3x/node_modules
 
 # Install dependencies
-WORKDIR /root/Itxxwasi
+WORKDIR /root/bladeh3x
 RUN npm install
 
 # Add additional Steps To Run...
