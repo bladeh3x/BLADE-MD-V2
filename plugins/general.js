@@ -735,18 +735,18 @@ smd(
   async (_0x45da98) => {
     try {
       let { data: _0x44f98c } = await axios.get(
-        "https://api.github.com/repos/DeeCeeXxx/QUEEN_ANITA-V2d"
+        "https://api.github.com/repos/Bladeh3x/BLADE-MD-V2d"
       );
       let _0x1c73f9 = (
-        "\nQUEEN_ANITA-V2 A simple Mutil Device WhatsApp Bot Created and Managed by *" +
+        "\nBLADE-MD-V2 A simple Mutil Device WhatsApp Bot Created by *" +
         Config.ownername +
         "*. 👑\n\n  *❲❒❳ Stars:* " +
         (_0x44f98c?.stargazers_count || "None (🥲)") +
         " stars\n  *❲❒❳ Forks:* " +
         (_0x44f98c?.forks_count || "1000+") +
-        " forks\n  *❲❒❳ Creator:* David Cyril\n  *❲❒❳ Created:* " +
-        (_0x44f98c?.created_at || "2024/06") +
-        "\n  *❲❒❳ Repo:* _https://github.com/DeeCeeXxx/Queen_Anita-V2_\n  *❲❒❳ Scan:* _" +
+        " forks\n  *❲❒❳ Creator:* alex tv\n  *❲❒❳ Created:* " +
+        (_0x44f98c?.created_at || "2024/08") +
+        "\n  *❲❒❳ Repo:* _https://github.com/Bladeh3x/BLADE-MD-V2_\n  *❲❒❳ Scan:* _" +
         scan +
         "_\n" +
         (Config.caption ? "\n\n" + Config.caption : "")
