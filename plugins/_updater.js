@@ -37,7 +37,7 @@ try {
       desc: "Shows repo's refreshed commits.",
       category: "tools",
       fromMe: true,
-      react: "🍂",
+      react: "✅",
       filename: __filename,
       use: process.env.HEROKU_API_KEY ? "[ start ]" : "",
     },
@@ -51,7 +51,7 @@ try {
         let update = await DB.sync();
         await citel.bot.sendMessage(
           citel.chat,
-          { text: update.replace(/SuhailTechIMd/, " David Cyril") },
+          { text: update.replace(/SuhailTechIMd/, " Alex tv") },
           { quoted: citel }
         );
         if (
