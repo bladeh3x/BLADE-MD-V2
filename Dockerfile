@@ -9,8 +9,8 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/Bladeh3x/BLADE-MD-V2  /root/Bladeh3x
-WORKDIR /root/Bladeh3x/
+RUN git clone https://github.com/bladeh3x/BLADE-MD-V2  /root/bladeh3x
+WORKDIR /root/bladeh3x/
 
 
 COPY package.json .
