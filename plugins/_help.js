@@ -35,17 +35,17 @@ smd(
 ➮Nᴜᴍ - ${owner.split(",")[0]} 
 ➮Mᴇᴍᴏ - ${formatp(os.totalmem() - os.freemem())} 
       \n *BLADE-MD-V2 SIMPLE WHATSAPP BOT*\n\n ${readmore} 
-╭──❰ *ALL MENU* ❱ 
-│✅ Lɪꜱᴛ 
-│✅ Cᴀᴛᴇɢᴏʀʏ 
-│✅ Hᴇʟᴘ 
-│✅ Aʟɪᴠᴇ 
-│✅ Uᴘᴛɪᴍᴇ 
-│✅ Wᴇᴀᴛʜᴇʀ 
-│✅ Lɪɴᴋ 
-│✅ Cᴘᴜ 
-│✅ Rᴇᴘᴏꜱɪᴛᴏʀʏ 
-╰─────────────⦁`.trim();
+ ╭──㊰[ *ALL MENU* ]
+ ✗│ ༝  Lɪꜱᴛ 
+ ✗│ ༝  Cᴀᴛᴇɢᴏʀʏ 
+ ✗│ ༝  Hᴇʟᴘ 
+ ✗│ ༝  Aʟɪᴠᴇ 
+ ✗│ ༝  Uᴘᴛɪᴍᴇ 
+ ✗│ ༝  Wᴇᴀᴛʜᴇʀ 
+ ✗│ ༝  Lɪɴᴋ 
+ ✗│ ༝  Cᴘᴜ 
+ ✗│ ༝  Rᴇᴘᴏꜱɪᴛᴏʀʏ 
+ ╰─────────────❒`.trim();
       return await message.bot.sendUi(message.from, { caption: menuMessage });
     } catch (error) {
       await message.error(error + "\nCommand:menus", error);
@@ -238,13 +238,13 @@ astro_patch.cmd(
     try {
       const { commands } = require("../lib");
       let listMessage = `\n  
-╭━━〘 * ${Config.botname} * 〙    
-┃ ✅ Prefix: ${Config.HANDLERS}
-┃ ✅ Owner: ${Config.ownername}
-┃ ✅ Commands: ${commands.length}
-┃ ✅ Uptime: ${runtime(process.uptime())}
-┃ ✅ Mem: ${formatp(os.totalmem() - os.freemem())}
-╰━━━━━━━━━━━━━━⊷\n`;
+ ╭━━㊰[ * ${Config.botname} * ]    
+ ✗┃  ༝  Prefix: ${Config.HANDLERS}
+ ✗┃  ༝  Owner: ${Config.ownername}
+ ✗┃  ༝  Commands: ${commands.length}
+ ✗┃  ༝  Uptime: ${runtime(process.uptime())}
+ ✗┃  ༝  Mem: ${formatp(os.totalmem() - os.freemem())}
+ ╰━━━━━━━━━━━━━━❒\n`;
 
       for (let i = 0; i < commands.length; i++) {
         if (commands[i].pattern === undefined) {
