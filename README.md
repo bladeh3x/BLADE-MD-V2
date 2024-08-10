@@ -34,6 +34,7 @@
 </p>
    
 . ***Get [`SESSION ID`](https://scanqr-hsdh.onrender.com/wasiqr) [`PARING CODE`](https://scanqr-hsdh.onrender.com/pair) by scanning QR code. `Whatapp>Three dots>Linked Devices`***
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 #### DEPLOY TO HEROKU 
 **1. sign up on heroku**
@@ -55,9 +56,9 @@
 **2. If You Have an account on Render**
 - <a href="https://render.com"><img title="Deploy Now" src="https://img.shields.io/badge/DEPLOY NOW-h?color=green&style=for-the-badge&logo=msi" width="220" height="38.45"/></a></p>
 
-**3.Create an account on UPTIME TO MAKE YOUR RENDER BOT STABLE**
+**3.Create an account on UPTIME TO MAKE YOUR RENDER BOT ACTIVE 24/7**
 - <a href="https://uptimerobot.com"><img title="Deploy Now" src="https://img.shields.io/badge/CREATE NOW-h?color=red&style=for-the-badge&logo=msi" width="220" height="38.45"/></a></p>
-
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 
 
