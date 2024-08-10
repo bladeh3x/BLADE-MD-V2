@@ -32,3 +32,7 @@
      
   <div><br>
 </p>
+
+### 2. GET SESSION ID VIA PAIR CODE OR QR
+
+<a href='https://scanqr-hsdh.onrender.com/pair' target="_blank"><img alt='Get Session ID' src='https://img.shields.io/badge/Click here to get your session id-green?style=for-the-badge&logo=opencv&logoColor=white'/></a>
