@@ -10,7 +10,7 @@ RUN apt-get update && \
   rm -rf /var/lib/apt/lists/*
   
 WORKDIR /root/bladeh3x/
-RUN git clone https://github.com/bladeh3x/BLADE-MD-V2  /root/bladeh3x .
+RUN git clone https://github.com/bladeh3x/BLADE-MD-V2  /root/bladeh3x
 
 
 
