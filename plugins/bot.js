@@ -117,7 +117,7 @@ try {
   });
 } catch (_0x2568c0) {
   if (!global.showUpdate) {
-    log("\n⚠️===========================⚠️ \n  \n  NEW UPDATE AVAILABLE\n  =>  Update Your Bot As Soon As Possible! 🚫\n \n Regards: David Cyril \n⚠️============================⚠️");
+    log("\n⚠️===========================⚠️ \n  \n  NEW UPDATE AVAILABLE\n  =>  Update Your Bot As Soon As Possible! 🚫\n \n Regards: Alex tv \n⚠️============================⚠️");
     global.showUpdate = true;
   }
 }
@@ -283,13 +283,13 @@ smd(
 
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `BLADE-MD-V2\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds\n\n*Fact:*\n${fact.result.fact}\n\nRIAS GREMORY BOT`;
+          const captionText = `BLADE-MD-V2\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds\n\n*Fact:*\n${fact.result.fact}\n\nBLADE-MD-V2`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
         async () => {
           const imageBuffer = await axios.get(
-            "https://telegra.ph/file/0e843d4ec15a125c86049.jpg",
+            "https://telegra.ph/file/d977cc117a6d4a1f35359.jpg",
             {
               responseType: "arraybuffer",
             }
