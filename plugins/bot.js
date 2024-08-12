@@ -244,7 +244,7 @@ smd(
       const designs = [
         async () => {
           const imageBuffer = await axios.get(
-            "https://telegra.ph/file/95ae0655bd548ecd61da5.jpg",
+            "https://telegra.ph/file/95ae0655bd548ecd61da5",
             {
               responseType: "arraybuffer",
             }
@@ -267,7 +267,7 @@ smd(
         },
         async () => {
           const imageBuffer = await axios.get(
-            "https://telegra.ph/file/95ae0655bd548ecd61da5.jpg",
+            "https://telegra.ph/file/074f3f29dbbbaf4f5a860.jpg",
             {
               responseType: "arraybuffer",
             }
