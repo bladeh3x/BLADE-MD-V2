@@ -9,8 +9,9 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/DeeCeeXxx/Queen_Anita-V2  /root/DeeCeeXxx
-WORKDIR /root/DeeCeeXxx/
+WORKDIR /root/bladeh3x/
+RUN git clone https://github.com/bladeh3x/BLADE-MD-V2  /root/bladeh3x
+
 
 
 COPY package.json .
