@@ -16,6 +16,7 @@ global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
 global.github = process.env.GITHUB || "https://github.com/bladeh3x/BLADE-MD-V2";
 global.gurl = process.env.GURL || "";
 global.website = process.env.GURL || "";
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "";
 global.devs = "https://t.me/alex";
 global.sudo = process.env.SUDO || "2348059540212";
 global.owner = process.env.OWNER_NUMBER || "";
