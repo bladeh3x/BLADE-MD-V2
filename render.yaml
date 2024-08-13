@@ -2,6 +2,7 @@ services:
   - type: web
     name: BLADE-MD-V2
     env: docker
-    region: Frankfurt 
+    region: frankfurt
     plan: free
     dockerfilePath: Dockerfile
+    autoDeploy: true
