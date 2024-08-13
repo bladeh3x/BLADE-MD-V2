@@ -2,6 +2,6 @@ services:
   - type: web
     name: BLADE-MD
     env: docker
-    region: Frankfurt
+    region: Frankfurt 
     plan: free
     dockerfilePath: Dockerfile
