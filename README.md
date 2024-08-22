@@ -62,7 +62,9 @@
 
 
 ### DEPLOY ON REPLIT
-- <a href="(https://replit.com/github/bladeh3x/BLADE-MD-V2"><img title="raplir" src="https://img.shields.io/badge/RAPLIT-h?color=black&style=for-the-badge&logo=msi" width="220" height="38.45"/></a></p>
+- <p align="center" >
+    <a href="https://repl.it/github/Bladeh3x/BLADE-MD-v2">
+    <img src="https://i.ibb.co/zrB5kMh/deploy-on-repl.jpg" width="220" height="38.45"/></a></p>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 
