@@ -1,25 +1,16 @@
-FROM node:lts-buster
+FROM quay.io/sampandey001/secktor
 
-RUN apt-get update && \
-  apt-get install -y \
-  ffmpeg \
-  imagemagick \
-  webp && \
-  apt-get upgrade -y && \
-  npm i pm2 -g && \
-  rm -rf /var/lib/apt/lists/*
-  
-WORKDIR /root/bladeh3x/
-RUN git clone https://github.com/bladeh3x/BLADE-MD-V2  /root/bladeh3x
+RUN git clone https://github.com/hakisolos/BLADE-MD-V2.git /root/bladeh3x
 
+# Clear npm cache and remove node_modules directories
+RUN npm cache clean --force
+RUN rm -rf /root/bladeh3x/node_modules
 
+# Install dependencies
+WORKDIR /root/bladeh3x
+RUN npm install
 
-COPY package.json .
-RUN npm install pm2 -g
-RUN npm install --legacy-peer-deps
-
-COPY . .
-
+# Add additional Steps To Run...
 EXPOSE 3000
-
 CMD ["npm","start" ]
+# IF YOU ARE MODIFYING THIS BOT DONT CHANGE THIS  RUN rm -rf /root/bladeh3x/node_modules
