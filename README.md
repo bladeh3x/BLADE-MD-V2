@@ -33,7 +33,7 @@
   <div><br>
 </p>
    
-. ***Get [`SESSION ID`](https://scanqr-hsdh.onrender.com/wasiqr) [`PARING CODE`](https://scanqr-hsdh.onrender.com/pair) by scanning QR code. `Whatapp>Three dots>Linked Devices`***
+. ***Get [`SESSION ID`](https://scanqr.onrender.com/wasiqr) [`PARING CODE`](https://scanqr.onrender.com/pair) by scanning QR code. `Whatapp>Three dots>Linked Devices`***
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 #### DEPLOY TO HEROKU 
