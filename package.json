@@ -8,10 +8,10 @@
       "node": ">=20.0.0"
    },
    "scripts": {
-      "run": "pm2 start . --deep-monitoring --attach --name Anita",
-      "asta": "pm2 start . --deep-monitoring --attach --name Anita",
-      "start": "pm2 start . --attach --name Anita",
-      "stop": "pm2 stop Anita",
+      "run": "pm2 start . --deep-monitoring --attach --name blade",
+      "asta": "pm2 start . --deep-monitoring --attach --name blade",
+      "start": "pm2 start . --attach --name Blade",
+      "stop": "pm2 stop Blade",
       "dbs--postinstall": "npx puppeteer@latest install --y"
    },
    "author": "Alextv",
